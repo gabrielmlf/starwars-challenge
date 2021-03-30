@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@font-face {
+        font-family: montserrat;
+        src: url(assets/fonts/Montserrat-Regular.ttf) format('opentype');
+}
+
+@font-face {
+        font-family: montserratbold;
+        src: url(assets/fonts/Montserrat-ExtraBold.ttf) format('opentype');
+}
+
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'montserrat', 'arial', sans-serif;
+}
+
+body {
+        background-color: #08080a;
+}
+
+.normal-text {
+        color: #b0afaf;
+}

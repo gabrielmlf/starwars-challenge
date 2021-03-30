@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "starwars-challenge"
+    }
+  },
+  "defaultProject": "starwars-challenge",
+  "cli": {
+    "analytics": false
+  }
 }

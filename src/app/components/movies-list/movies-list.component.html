@@ -1,0 +1,21 @@
+<div class="container-fluid">
+	<h1 class="d-flex justify-content-center pt-3" id="title">CLASSIC MOVIES COLLECTION</h1>
+	<div class="row ">
+		<div class="col-lg-4 col-sm-12" *ngFor="let movie of movies">
+			<div class="card movie-card mx-4 my-4" (click)="openMovieDetails(movie)">
+				<div class="row">
+					<div class="col-7">
+						<span class="small-text">Episode {{movie.roman}}</span>
+						<h1 class="bold-text movie-title"><b>{{movie.title}}</b></h1>
+						<button class="btn btn-outline-light more-details-btn">Movie
+							Details</button>
+					</div>
+
+					<div class="col-5">
+						<span class="roman-background">{{movie.roman}}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

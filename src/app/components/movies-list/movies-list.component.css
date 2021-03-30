@@ -1,0 +1,44 @@
+#title {
+    color: #fff;
+    white-space: pre-wrap;
+}
+
+.movie-card {
+    padding: 20px 0px 0px 20px;
+    border-radius: 10px;
+    background-color: #16171d;
+    display: grid;
+}
+
+.movie-card:hover {
+    background-color: #0112fe;
+    cursor: pointer;
+}
+
+.movie-card:hover .more-details-btn {
+    background-color: #fff;
+    color: #0112fe;
+}
+
+.movie-card:hover .roman-background {
+    color: #0112fe;
+}
+
+.small-text {
+    color: #b0afaf;
+    font-size: smaller;
+}
+
+.bold-text {
+    color: #fff;
+}
+
+.roman-background {
+    font-family: montserratbold;
+    color: #16171d;
+    text-shadow: -1px 1px 0 #b0afaf, 1px 1px 0 #b0afaf, 1px -1px 0 #b0afaf, -1px -1px 0 #b0afaf;
+    font-size: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}

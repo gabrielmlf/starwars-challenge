@@ -1,0 +1,28 @@
+header {
+    padding-top: 3%;
+    width: 10%;
+    height: 10%;
+    margin: auto;
+}
+
+a {
+    color: #b0afaf;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+#logo:focus {
+    outline: none;
+}
+
+#logo {
+    padding-top: 6%;
+    padding-bottom: 15%;
+}
+
+#logo {
+    padding-top: 6%;
+    padding-bottom: 15%;
+}

@@ -1,0 +1,50 @@
+.container-fluid {
+    padding: 1% 10% 1% 10%;
+}
+
+#poster {
+    margin-left: 10px;
+    width: 90%;
+    height: 90%;
+}
+
+#episode {
+    font-size: 1.7rem;
+    color: #fff;
+}
+
+#title {
+    font-family: montserratbold;
+    color: #fff;
+    font-size: 3rem;
+    padding-top: 16px;
+    padding-bottom: 18px;
+}
+
+.data-label {
+    color: #b0afaf;
+    display: inline-block;
+}
+
+.data {
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+}
+
+#crawl {
+    font-size: 1.4rem;
+    color: #b0afaf;
+}
+
+.data-col {
+    padding: 0px 32px 0px 35px;
+}
+
+.detail-row {
+    padding-bottom: 3%;
+}
+
+.invalid {
+    color: white;
+}
